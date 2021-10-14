@@ -6,15 +6,15 @@ public class Point {
 
     public Point(int x, int y) {
         super();
-        xPosition = x;
-        yPosition = y;
+        this.xPosition = x;
+        this.yPosition = y;
     }
 
     public int getX(){
-        return xPosition;
+        return this.xPosition;
     }
-    
+
     public int getY(){
-        return yPosition;
+        return this.yPosition;
     }
 }

@@ -2,9 +2,15 @@ package se.systementor;
 
 public class Lab2 {
     public void run(){
-        Rectangle rect = new Rectangle(100, 20);
+        System.out.println("Ange height:");
+        int height = Integer.parseInt(System.console().readLine());
+        System.out.println("Ange width:");
+        int width = Integer.parseInt(System.console().readLine());
+        
+        Rectangle rect = new Rectangle(height, width);
         int area = rect.calculateArea();
-
     }
+
+
     
 }
