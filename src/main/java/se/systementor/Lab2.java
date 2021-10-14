@@ -9,6 +9,7 @@ public class Lab2 {
         
         Rectangle rect = new Rectangle(height, width);
         int area = rect.calculateArea();
+        System.out.println(area);
     }
 
 
